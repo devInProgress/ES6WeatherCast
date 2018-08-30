@@ -13,11 +13,14 @@ export let functions = {
     try {
       let description = '';
       const responseData = await Http.fetchData(url);
-      if (responseData.weather[0] && responseData.weather[0].description) {
+      if (responseData.weather[0].description) {
         description = responseData.weather[0].description.toUpperCase();
       }
       const WEATHER_DATA = new WeatherData(CITY_NAME, description);
       const WEATHER_PROXY = new Proxy(WEATHER_DATA, WEATHER_PROXY_HANDLER);
+      if (responseData.main.temp) {
+        WEATHER_PROXY.temperature = responseData.main.temp;
+      }
     }
     catch (error) {
       return console.log(error);

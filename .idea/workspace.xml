@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1eb89712-c09d-420a-b0c6-0cf2c3aa10cd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/functionalities.js" afterPath="$PROJECT_DIR$/functionalities.js" />
-      <change beforePath="$PROJECT_DIR$/http.js" afterPath="$PROJECT_DIR$/http.js" />
-      <change beforePath="$PROJECT_DIR$/weather-data.js" afterPath="$PROJECT_DIR$/weather-data.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,8 +51,8 @@
       <file leaf-file-name="functionalities.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functionalities.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="71" lean-forward="true" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
+            <state relative-caret-position="252">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -177,12 +175,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535552382375</updated>
-      <workItem from="1535552383626" duration="12311000" />
+      <workItem from="1535552383626" duration="12499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12311000" />
+    <option name="totallyTimeSpent" value="12499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -289,8 +287,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functionalities.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="71" lean-forward="true" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
+        <state relative-caret-position="252">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
