@@ -8,7 +8,7 @@ export class Http {
           const RESPONSE_DATA = JSON.parse(HTTP.responseText);
           resolve(RESPONSE_DATA);
         } else if (HTTP.readyState == XMLHttpRequest.DONE) {
-          reject('Something went wrong');
+          reject('Enter a Valid City name');
         }
       };
       HTTP.send();
