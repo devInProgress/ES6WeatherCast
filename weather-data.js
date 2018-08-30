@@ -4,7 +4,7 @@ export class WeatherData {
     this.description = description;
     this.temperature = '';
   }
-}
+};
 
 export const WEATHER_PROXY_HANDLER = {
   get: (target, property) => {
